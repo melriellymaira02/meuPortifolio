@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Two tone -->
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="sistemas.css">	
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet">
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="index.html">inicio</a></li>
+    <li class="page-item"><a class="page-link" href="interface.html">proximo</a></li>
+
+ 
+  </ul>
+</nav>
+        <img src="php.jpg" class=" block w-25 rounded mx-auto d-block" alt="...">
+<h1 class="text-center">sistemas web </h1>
+    <div class="sis">
+    <h1 class="text-dark text-center">
+                    criptrogafia
+São técnicas para esconder informações com outros caracteres em que somente o emissor e receptor conseguem compreender. Usada geralmente para proteger informações de banco de dados da empresa/cliente.
+EX:
+email🡪fnbhm aqui adicionamos +1 com base no alfabeto ou seja depois do “e” é o “f” e assim por diante
+Criptografia assimétrica é uma criptografia que contém duas chaves uma pública e privada. A primeira chave é uma chave pública usada para criptografar uma mensagem e a segunda é uma chave privada utilizada para descriptografá-la.
+Criptografia simétrica é uma criptografia que tem somente uma chave como o exemplo acima.
+Hashing transforma os dados para algo fixo que sequer sejam reconhecíveis. Usado em criação de assinaturas digitais e análise e verificação da validade e integridade de arquivos digitais.
+Protocolos
+Algumas delas são DES, 3DES, AES, IDEA, RC4, TLS e SSL. Importante: existem criptografias que não tem chaves chamadas de HASH.
+Tipos
+Simétrica, Assimétrica e Hashing.
+
+Cookies
+São fragmentos de dados que o navegador envia ao usuário para salvar informações do usuário e pode usar essas informações. Eles têm um tempo de vida, ou seja, após algum certo tempo (determinado pelo desenvolvedor) o cookie apagará suas informações.
+
+Session
+São os cookies só que eles são apagados quando você fecha se browser (navegador)
+
+HTTP (Hyper Text Transport Protocol)
+É um protocolo da camada de aplicação para transmissão de documentos hipermídia como o HTML, ele comunica com os navegadores web e servidores web.
+HTTP status:
+Respostas de informação (100-199), Respostas de sucesso (200-299), Redirecionamentos (300-399), Erros do cliente (400-499) e Erros do servidor (500-599).
+Estrutura de três Camadas (3 Tier Architecture)
+É uma arquitetura que é utilizada para o programa conversar com o banco de dados sem quaisquer “aberturas” fazendo que seja mais difícil hackers acessar o banco de dados e comprometer os dados.
+
+Primeira camada
+Chamada de camada de apresentação ela é o layout do programa exibindo informações na parte de interface gráfica.
+Segunda camada
+Chamada de camada de aplicação nesta camada os dados obtidos da camada de apresentação são processados
+Terceira camada
+Camada de dados nesta camada as informações da camada de aplicação são armazenadas e gerenciadas
+
+Obs: Existem aplicativos que usam mais que somente três camadas, mas, não é recomendado pois, com isso o programa demora mais além de que por ter mais de três camadas qualquer erro acaba criando uma abertura no programa.
+
+Sistemas web 2º Bimestre
+REST
+(Transferência de estado representacional) é uma arquitetura que permite a comunicação entre aplicações com base princípios de arquitetura
+EX: quando você abre seu navegador ele estabelece uma conexão TCP ou IP e quando faz uma pesquisa nele o REST faz um requisito GET http fazendo que venha uma página HTML ou um algum erro
+Obs: RESTful são sistemas que usam as determinações do REST; 
+SOAP por sua vez é bem estruturado com conjunto de regras bem definidas, mas ao invés de utilizar o HTTP/HTTPs igual ao REST ele, usa qualquer meio de comunicação como o SMTP
+
+CRUD (create read update delete)
+Ele é o método que as APIs (conjunto de definições e protocolos) que tem uma arquitetura cliente/servidor usam para transformar em métodos do HTTP/HTTPS.
+Operação CRUD
+Método HTTP
+Crate (crie)
+Post (crie)
+Read (leia)
+Get (leia)
+Update (atualize)
+Patch/Put (atualize)
+Delete (exclua)
+Delete (exclua)
+
+
+Obs: Precisa estar em um JSON para realizar alguma operação CRUD e com isso ele manda um HTTP status.
+
+HTTPS
+É o HTTP só que com segurança por isso o “s” de secure. Se obtém esse secure após o site ter um certificado SSL (emitido por uma autoridade de certificação).
+Obs: O SSL criptografa todas as informações que são contidas na página
+
+Sistemas web 3° bimestre
+XML e JSON
+São linguagens para trocar informações. XML usado geralmente em empresas com base em CPF/RG é bastante parecido com HTML, ou seja, literalmente é uma tag com uma informação no conteúdo dela 
+EX: 
+<contato>
+  <telefone>11999995555</telefone>
+  <cidade>Jundiai</cidade>
+</contato>
+Dentro de contato guarda um número de telefone e uma cidade, pois contato fecha após a cidade.
+
+No JSON (JavaScript Object Notation) ficaria assim:
+{
+“contato”:[
+    {“telefone”: 11999995555},
+    {“cidade”:“Jundiai”}
+]
+}
+Dentro da lista contato está o telefone e a cidade
+
+
+
+PHP
+(um pequeno comentário aqui PHP é UMA das linguagens que podem ser utilizadas na parte do servidor além de ser mais utilizada no mercado atual e como o tema é uma linguagem de programação tentarei explicar com um método antes disso para facilitar a todos então por favor entendam que qualquer linguagem de programação que interage com variáveis não é fácil de resumir então essa parte tem o contexto “dicas e noções que precisa ter quando for usar uma linguagem de programação”)
+
+1º Saiba o que é essa linguagem e para que ela serve
+2º Se já tiver visto uma linguagem de programação pense quais são as diferenças?  quais são as semelhanças? com isso você PODERÁ obter uma “base” para aprender uma nova linguagem caso se não tiver visto nenhuma procure e escolha uma que você mais se identifique (tente achar sintaxe de alguma função ou alguma estrutura geralmente esses dois temas que você mais vai ter que usar)
+3º É recomendável você ter uma noção de inglês (por favor não venha com TO BE pra cima de linguagens de programação pois você dificilmente irá falar com pessoas de outros países no MOMENTO foque mais em traduções de palavras EX: o foreach do PHP se você traduzir bem direto vai ficar “Para Cada”) então você pode usar o truque de ficar fingindo que está conversando com seu aparelho para conseguir facilitar para você (realmente ajuda)
+4ºLeia a documentação (documentation) da linguagem fuça no site da linguagem com certeza você vai achar lá eles conseguem simplificar bastante o que é e para que serve além de trazer recomendações para facilitar a interpretação além de ter um “getting start” começando agora ou coisa parecida tem exemplos em alguns casos Link PHP: https://www.php.net/docs.php
+5ºTenha noção que a maioria das linguagens geralmente precisam de outra para funcionar do jeito que espera então tente identificar a linguagem “suporte” da sua atual
+
+Essas foram as dicas então vamos para o básico para usar PHP:
+ Variável algo que pode mudar sintaxe: oi=33
+Constante algo permanente sintaxe: const Contenho= ”palavras”
+ Array uma variável que tem uma lista no valor dela sintaxe: lista=[1,2,3,4] ou lista=array(1,2,3,4)
+Function Exemplo é tipo você ensinar a uma criança a fazer 2 x 2 e falar o que você vai usar só que você falou para ela que o nome dessa conta é A então quando você falar A ela vai fazer o cálculo sintaxe para criar a função do exemplo: function A (){2*2} obs: não precisa de colocar o que você vai usar pois você está usando algo que o programa já sabe o VALOR 2; obs2:não tem um return “retorne” pois em PHP é opcional
+Sintaxe para chamar a função do exemplo: A ()
+If e Else pensa que está dando instruções para uma pessoa tipo se A der diferente de 4 então fale você está errado senão (else) fale você está certo sintaxe do exemplo: IF(A!=4){ echo “voce esta errado”}else{echo “voce esta certo”} obs: procure sobre os comparadores “comparison” do PHP antes disso</h1>
+   
+    </div>
+            <a class="btn btn-outline-info" 
+      <a class="btn btn-outline-info" href="index.html" role="button">inicio</a>
+      
+       <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+   
+  </body>
+</html>
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

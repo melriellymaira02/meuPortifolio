@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(236.85deg, #e5e6e6 27.26%, #363437 96.03%);
+
+}
+.carousel {
+  position: relative;
+
+  display: -webkit-box;
+  display: flex;
+
+  max-width: 64rem;
+  min-height: 40rem;
+  margin: auto;
+
+  background: red;
+
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+
+
+
